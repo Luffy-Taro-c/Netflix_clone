@@ -1,0 +1,317 @@
+*
+{
+    margin: 0;
+}
+
+/* body
+{
+    
+    
+} */
+
+/* header start */
+
+.home
+{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(to top,black,40%,transparent),linear-gradient(to bottom,black,40%,transparent), url("netflix-background-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.top-section
+{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    img{
+        height: 150%;
+        margin-left: 150px;
+    }
+    .top-right
+    {
+        select{
+            width: 140px;
+            height: 40px;
+            background: none;
+            border-radius: 7px;
+            color: white;
+            text-align: center;
+            
+            option 
+            {
+                color: black;
+                font-weight:900;  
+            }
+        }
+        svg
+        {
+            position: relative;
+            left: 30px;
+            top: 3px;
+            color: white;
+        }
+        button
+        {
+            width: 140px;
+            height: 40px;
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 7px;
+            margin-right: 150px;
+
+        }
+        button:hover
+        {
+            background: rgb(101, 2, 2);
+        }
+    }
+}
+/* header end  */
+
+/* body content start  */
+.content
+{
+    width: 45%;
+    height: 50%;
+    
+    position: absolute;
+    color: whitesmoke;
+    top: 30%;
+    left: 27%;
+    /* transform: translate(-50%,-50%); */
+    text-align: center;
+   
+}
+.content h1 
+{
+    font-size: 50px;
+
+}
+
+.content h3 
+{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.inp-sing
+{
+
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    gap: 30px;
+    
+    
+}
+
+.inp-sing input 
+{
+    height: 45px;
+    width: 60%;
+    border:0.5px solid white;
+    border-radius: 5px;
+    /* margin-left: 20px;  */
+    font-size: 25px;
+    background:transparent;
+    backdrop-filter: blur(10px);
+
+}
+
+.inp-sing button
+{
+    width: 40%;
+    background: red;
+    color: whitesmoke;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.inp-sing button:hover 
+{
+    background: rgb(101, 2, 2);
+}
+ /* body content end  */
+
+/* sig-in start  */
+.sign-in
+{
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(to left, black,35%, transparent),url('movie-9pvmdtvz4cb0xl37.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    
+    top: 0;
+    left: 0;
+    form
+    {
+        height: 75vh;
+        width: 500px;
+        /* background-color: black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        backdrop-filter: blur(10px);
+        border-radius: 5px;
+        color: white;
+        border: 2px solid;
+        margin-top:7% ;
+
+        input 
+        {
+            height: 40px;
+            width: 80%;
+            color: black;
+            
+            background: transparent;
+        }
+        input[type='button']
+        {
+            border: none;
+            width: 81%;
+            background-color: rgb(97, 1, 1);
+            color: whitesmoke;
+            border-radius: 5px;
+        }
+        input[type='button']:hover
+        {
+            background-color: rgb(58, 3, 3);
+            
+        }
+        input[type='text'],input[type='password']
+        {
+            background: transparent;
+            border:1px rgb(48, 48, 48) solid;
+            border-radius: 5px;
+            padding: 10px;
+
+        }
+        ::placeholder
+        {
+            color: white;
+            font-size: 1.1rem;
+        }
+        input:focus
+        {
+            outline: none;
+        }
+        .check
+        {
+            width: 300px;
+            display: flex;
+            /* justify-content: flex; */
+            align-items: center;
+            position: relative;
+            right: 50px;
+            gap: 10px;
+            input 
+            {
+                width: 25px;
+            }
+            
+
+
+        }
+        a 
+        {
+            color: white;
+        }
+
+    } 
+}
+
+/* sig-in end */
+
+/* imag container start  */
+
+
+.container-text
+{
+    height: 800px;
+    width: 100%;
+    background: rgb(5, 5, 5);
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+    
+    
+    h3
+    {
+        margin-left: 70px;
+        height: 10px;
+        width: 400px;
+        color: whitesmoke;
+        font-size: 1.5rem;
+    }
+ 
+   .select-1 select 
+   {
+        background: none;
+        color: whitesmoke;
+        padding: 10px;
+        margin-top: 60px ;
+        display: flex;
+        width: 140px;
+
+   }
+   .select-2 select 
+   {
+        background: none;
+        padding: 10px;
+        color: whitesmoke;
+        margin-top: 60px ;
+        margin-left: 3px;
+        display: flex;
+        
+        
+   }
+   
+   option 
+   {
+        color: black;
+        font-weight:900;  
+   }
+
+}
+.container-images
+    
+{   
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 90px;
+    position: absolute;
+    overflow: hidden;
+    img 
+    {
+        height: 300px;
+        border-radius: 10%;
+        margin-top: 3.7%;   
+        position: relative;     
+    }
+    img:hover 
+    {
+        scale: 1.2 ;
+        /* transform: rotate(10deg); */
+    }
+    
+
+}
+
+
+
